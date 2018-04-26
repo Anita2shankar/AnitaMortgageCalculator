@@ -11,6 +11,10 @@ class MortCalcHomePage
 
   divs(:divpayment1,:xpath=>'//*[@id="calc"]/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]')
   h3(:divpayment,:xpath =>'//*[@id="calc"]/form/section/section[2]/div/div/div[1]/div/div/div[3]/div[2]/div[2]/div[1]/div[1]/h3')
+  a(:asavemaney, :xpath=>'/html/body/section/section/div/div/nav/ul/li[6]/a')
+  a(:aextrapayment, :xpath=>'//*[@class="main-menu"]/nav/ul/li[6]/ul/li[1]/a')
+
+  li(:ulsubmenu, :xpath=>'//*[@class="main-menu"]/nav/ul/li[6]')
 
 
   button(:calculate, :name=>"cal")
